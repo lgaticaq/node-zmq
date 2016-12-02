@@ -1,4 +1,4 @@
-FROM lgatica/node-zmq:4.6.1
+FROM lgatica/node-zmq:4.6.2
 
 MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
 
