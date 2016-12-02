@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:7.0.0
+FROM mhart/alpine-node:7.2.0
 
 MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
 
