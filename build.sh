@@ -25,4 +25,17 @@ docker build -t node-zmq:4.6.2-onbuild 4.6.2/onbuild
 docker tag node-zmq:4.6.2-onbuild lgatica/node-zmq:4.6.2-onbuild
 docker tag node-zmq:4.6.2-onbuild lgatica/node-zmq:4.6-onbuild
 docker tag node-zmq:4.6.2-onbuild lgatica/node-zmq:4-onbuild
+docker build -t node-zmq:7.2.0-yarn 7.2.0/yarn
+docker tag node-zmq:7.2.0-yarn lgatica/node-zmq:7.2.0-yarn
+docker tag node-zmq:7.2.0-yarn lgatica/node-zmq:7.2-yarn
+docker tag node-zmq:7.2.0-yarn lgatica/node-zmq:7-yarn
+docker tag node-zmq:7.2.0-yarn lgatica/node-zmq:yarn
+docker build -t node-zmq:6.9.1-yarn 6.9.1/yarn
+docker tag node-zmq:6.9.1-yarn lgatica/node-zmq:6.9.1-yarn
+docker tag node-zmq:6.9.1-yarn lgatica/node-zmq:6.9-yarn
+docker tag node-zmq:6.9.1-yarn lgatica/node-zmq:6-yarn
+docker build -t node-zmq:4.6.2-yarn 4.6.2/yarn
+docker tag node-zmq:4.6.2-yarn lgatica/node-zmq:4.6.2-yarn
+docker tag node-zmq:4.6.2-yarn lgatica/node-zmq:4.6-yarn
+docker tag node-zmq:4.6.2-yarn lgatica/node-zmq:4-yarn
 docker push lgatica/node-zmq
