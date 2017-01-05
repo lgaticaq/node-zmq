@@ -1,6 +1,6 @@
 # node-zmq
 
-[![dockeri.co](http://dockeri.co/image/lgatica/node-zmq)](https://registry.hub.docker.com/lgatica/node-zmq/)
+[![dockeri.co](http://dockeri.co/image/lgatica/node-zmq)](https://hub.docker.com/r/lgatica/node-zmq/)
 
 > Docker Image for node apps with alpine linux, krb5, zeromq and native dependencies
 
