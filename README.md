@@ -8,9 +8,9 @@
 
 Supported tags and respective Dockerfile links
 
-- 7.3.0, 7.3, 7, latest ([7.3/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/7.3.0/Dockerfile))
-- 7.3.0-onbuild, 7.3-onbuild, 7-onbuild, onbuild ([7.3/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/7.3.0/onbuild/Dockerfile))
-- 7.3.0-yarn, 7.3-yarn, 7-yarn, yarn ([7.3/yarn/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/7.3.0/yarn/Dockerfile))
+- 7.4.0, 7.4, 7, latest ([7.4/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/7.4.0/Dockerfile))
+- 7.4.0-onbuild, 7.4-onbuild, 7-onbuild, onbuild ([7.4/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/7.4.0/onbuild/Dockerfile))
+- 7.4.0-yarn, 7.4-yarn, 7-yarn, yarn ([7.4/yarn/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/7.4.0/yarn/Dockerfile))
 - 6.9.2, 6.9, 6 ([6.9/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.9.2/Dockerfile))
 - 6.9.2-onbuild, 6.9-onbuild, 6-onbuild ([6.9/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.9.2/onbuild/Dockerfile))
 - 6.9.2-yarn, 6.9-yarn, 6-yarn ([6.9/yarn/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.9.2/yarn/Dockerfile))
