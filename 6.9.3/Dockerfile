@@ -1,4 +1,4 @@
-FROM node:6.9.2-alpine
+FROM node:6.9.3-alpine
 
 MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
 
