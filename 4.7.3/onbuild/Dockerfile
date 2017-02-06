@@ -1,6 +1,4 @@
-FROM lgatica/node-zmq:4.7.1
-
-MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
+FROM lgatica/node-zmq:4.7.3
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app

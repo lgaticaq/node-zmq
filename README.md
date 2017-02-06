@@ -12,9 +12,9 @@ Supported tags and respective Dockerfile links
 - 6.9.5, 6.9, 6 ([6.9/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.9.5/Dockerfile))
 - 6.9.5-onbuild, 6.9-onbuild, 6-onbuild ([6.9/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.9.5/onbuild/Dockerfile))
 - 6.9.5-yarn, 6.9-yarn, 6-yarn ([6.9/yarn/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.9.5/yarn/Dockerfile))
-- 4.7.1, 4.7, 4 ([4.7/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.7.1/Dockerfile))
-- 4.7.1-onbuild, 4.7-onbuild, 4-onbuild ([4.7/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.7.1/onbuild/Dockerfile))
-- 4.7.1-yarn, 4.7-yarn, 4-yarn ([4.7/yarn/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.7.1/yarn/Dockerfile))
+- 4.7.3, 4.7, 4 ([4.7/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.7.3/Dockerfile))
+- 4.7.3-onbuild, 4.7-onbuild, 4-onbuild ([4.7/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.7.3/onbuild/Dockerfile))
+- 4.7.3-yarn, 4.7-yarn, 4-yarn ([4.7/yarn/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.7.3/yarn/Dockerfile))
 
 ## Create a Dockerfile in your Node.js app project
 ```dockerfile
