@@ -1,6 +1,6 @@
-FROM node:7.4.0-alpine
+FROM node:7.5.0-alpine
 
-MAINTAINER Leonardo Gatica <lgatica@protonmail.com>
+LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
 
 RUN apk add --no-cache --virtual build-dependencies make gcc g++ python && \
   apk add --no-cache krb5-dev zeromq-dev
