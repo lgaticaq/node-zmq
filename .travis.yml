@@ -22,7 +22,6 @@ env:
 install:
   - docker build -t "lgatica/node-zmq:$NODE_PATCH_VERSION" "$NODE_PATCH_VERSION"
   - docker build -t "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "$NODE_PATCH_VERSION/onbuild"
-  - docker build -t "lgatica/node-zmq:$NODE_PATCH_VERSION-yarn" "$NODE_PATCH_VERSION/yarn"
 
 script:
   - docker run --rm "lgatica/node-zmq:$NODE_PATCH_VERSION" node --version
@@ -33,11 +32,8 @@ after_success:
   - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION" "lgatica/node-zmq:$NODE_MAJOR_VERSION"
   - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:$NODE_MINOR_VERSION-onbuild"
   - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:$NODE_MAJOR_VERSION-onbuild"
-  - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-yarn" "lgatica/node-zmq:$NODE_MINOR_VERSION-yarn"
-  - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-yarn" "lgatica/node-zmq:$NODE_MAJOR_VERSION-yarn"
   - if [ "$LATEST" == "latest" ]; then
     docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION" "lgatica/node-zmq:latest";
     docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:onbuild";
-    docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-yarn" "lgatica/node-zmq:yarn";
     fi
   - docker push lgatica/node-zmq

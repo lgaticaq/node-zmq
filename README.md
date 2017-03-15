@@ -12,10 +12,8 @@ Supported tags and respective Dockerfile links
 - 7.7.0-onbuild, 7.7-onbuild, 7-onbuild, onbuild ([7.7/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/7.7.0/onbuild/Dockerfile))
 - 6.10.0, 6.10, 6 ([6.10/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.10.0/Dockerfile))
 - 6.10.0-onbuild, 6.10-onbuild, 6-onbuild ([6.10/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.10.0/onbuild/Dockerfile))
-- 6.10.0-yarn, 6.10-yarn, 6-yarn ([6.10/yarn/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.10.0/yarn/Dockerfile))
 - 4.8.0, 4.8, 4 ([4.8/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.8.0/Dockerfile))
 - 4.8.0-onbuild, 4.8-onbuild, 4-onbuild ([4.8/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.8.0/onbuild/Dockerfile))
-- 4.8.0-yarn, 4.8-yarn, 4-yarn ([4.8/yarn/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.8.0/yarn/Dockerfile))
 
 ## Create a Dockerfile in your Node.js app project
 ```dockerfile
