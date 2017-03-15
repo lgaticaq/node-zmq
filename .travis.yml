@@ -15,8 +15,8 @@ env:
       NODE_MINOR_VERSION: '6.10'
       NODE_MAJOR_VERSION: '6'
     - env:
-      NODE_PATCH_VERSION: '4.7.3'
-      NODE_MINOR_VERSION: '4.7'
+      NODE_PATCH_VERSION: '4.8.0'
+      NODE_MINOR_VERSION: '4.8'
       NODE_MAJOR_VERSION: '4'
 
 install:
