@@ -6,7 +6,7 @@ services:
 env:
   matrix :
     - env:
-      NODE_PATCH_VERSION: '7.7.0'
+      NODE_PATCH_VERSION: '7.7.1'
       NODE_MINOR_VERSION: '7.7'
       NODE_MAJOR_VERSION: '7'
       LATEST: 'latest'
@@ -32,8 +32,15 @@ after_success:
   - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION" "lgatica/node-zmq:$NODE_MAJOR_VERSION"
   - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:$NODE_MINOR_VERSION-onbuild"
   - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:$NODE_MAJOR_VERSION-onbuild"
+  - docker push "lgatica/node-zmq:$NODE_PATCH_VERSION"
+  - docker push "lgatica/node-zmq:$NODE_MINOR_VERSION"
+  - docker push "lgatica/node-zmq:$NODE_MAJOR_VERSION"
+  - docker push "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild"
+  - docker push "lgatica/node-zmq:$NODE_MINOR_VERSION-onbuild"
+  - docker push "lgatica/node-zmq:$NODE_MAJOR_VERSION-onbuild"
   - if [ "$LATEST" == "latest" ]; then
     docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION" "lgatica/node-zmq:latest";
     docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:onbuild";
+    docker push "lgatica/node-zmq:latest";
+    docker push "lgatica/node-zmq:onbuild";
     fi
-  - docker push lgatica/node-zmq
