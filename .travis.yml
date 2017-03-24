@@ -6,7 +6,7 @@ services:
 env:
   matrix :
     - env:
-      NODE_PATCH_VERSION: '7.7.2'
+      NODE_PATCH_VERSION: '7.7.3'
       NODE_MINOR_VERSION: '7.7'
       NODE_MAJOR_VERSION: '7'
       LATEST: 'latest'
