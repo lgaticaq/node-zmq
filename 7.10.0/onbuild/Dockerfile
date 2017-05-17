@@ -1,4 +1,4 @@
-FROM lgatica/node-zmq:7.9.0
+FROM lgatica/node-zmq:7.10.0
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
