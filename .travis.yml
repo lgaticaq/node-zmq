@@ -11,8 +11,8 @@ env:
       NODE_MAJOR_VERSION: '7'
       LATEST: 'latest'
     - env:
-      NODE_PATCH_VERSION: '6.10.3'
-      NODE_MINOR_VERSION: '6.10'
+      NODE_PATCH_VERSION: '6.11.0'
+      NODE_MINOR_VERSION: '6.11'
       NODE_MAJOR_VERSION: '6'
     - env:
       NODE_PATCH_VERSION: '4.8.3'
