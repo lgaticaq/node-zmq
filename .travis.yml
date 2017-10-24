@@ -6,8 +6,8 @@ services:
 env:
   matrix :
     - env:
-      NODE_PATCH_VERSION: '8.2.1'
-      NODE_MINOR_VERSION: '8.2'
+      NODE_PATCH_VERSION: '8.3.0'
+      NODE_MINOR_VERSION: '8.3'
       NODE_MAJOR_VERSION: '8'
       LATEST: 'latest'
     - env:
