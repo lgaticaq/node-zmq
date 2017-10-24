@@ -25,22 +25,3 @@ install:
 
 script:
   - docker run --rm "lgatica/node-zmq:$NODE_PATCH_VERSION" node --version
-
-after_success:
-  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION" "lgatica/node-zmq:$NODE_MINOR_VERSION"
-  - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION" "lgatica/node-zmq:$NODE_MAJOR_VERSION"
-  - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:$NODE_MINOR_VERSION-onbuild"
-  - docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:$NODE_MAJOR_VERSION-onbuild"
-  - docker push "lgatica/node-zmq:$NODE_PATCH_VERSION"
-  - docker push "lgatica/node-zmq:$NODE_MINOR_VERSION"
-  - docker push "lgatica/node-zmq:$NODE_MAJOR_VERSION"
-  - docker push "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild"
-  - docker push "lgatica/node-zmq:$NODE_MINOR_VERSION-onbuild"
-  - docker push "lgatica/node-zmq:$NODE_MAJOR_VERSION-onbuild"
-  - if [ "$LATEST" == "latest" ]; then
-    docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION" "lgatica/node-zmq:latest";
-    docker tag "lgatica/node-zmq:$NODE_PATCH_VERSION-onbuild" "lgatica/node-zmq:onbuild";
-    docker push "lgatica/node-zmq:latest";
-    docker push "lgatica/node-zmq:onbuild";
-    fi
