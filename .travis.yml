@@ -10,7 +10,7 @@ env:
     - env:
       VERSION: '6.11.4'
     - env:
-      VERSION: '4.8.4'
+      VERSION: '4.8.5'
 
 install:
   - docker build -t "lgatica/node-zmq:$VERSION" "$VERSION"
