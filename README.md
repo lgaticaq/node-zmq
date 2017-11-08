@@ -19,7 +19,7 @@ Supported tags and respective Dockerfile links
 
 ## Create a Dockerfile in your Node.js app project
 ```dockerfile
-FROM lgatica/node-zmq:8-onbuild
+FROM lgatica/node-zmq:onbuild
 # replace this with your application's default port
 EXPOSE 3000
 ```
