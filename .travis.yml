@@ -8,7 +8,7 @@ env:
     - env:
       VERSION: '8.7.0'
     - env:
-      VERSION: '6.11.4'
+      VERSION: '6.11.5'
     - env:
       VERSION: '4.8.5'
 
