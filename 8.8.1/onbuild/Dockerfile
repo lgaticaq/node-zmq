@@ -1,4 +1,4 @@
-FROM lgatica/node-zmq:8.8.0@sha256:ffcd9d15306971ee598853e918db9ac18c3347d0ced18fc29241c8f63d977eba
+FROM lgatica/node-zmq:8.8.1@sha256:3dcc79ca5bba0fa03daca89338e230af7e57670af76657217c7efe95ea59be64
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
