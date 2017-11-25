@@ -7,7 +7,7 @@ services:
 env:
   matrix:
     - env:
-      VERSION: '9.0.0'
+      VERSION: '9.2.0'
     - env:
       VERSION: '8.9.1'
     - env:
