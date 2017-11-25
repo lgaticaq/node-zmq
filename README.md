@@ -10,8 +10,8 @@ Supported tags and respective Dockerfile links
 
 - 9.0.0, 9.0, 9, latest ([9.0/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/9.0.0/Dockerfile))
 - 9.0.0-onbuild, 9.0-onbuild, 9-onbuild, onbuild ([9.0/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/9.0.0/onbuild/Dockerfile))
-- 8.9.0, 8.9, 8 ([8.9/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/8.9.0/Dockerfile))
-- 8.9.0-onbuild, 8.9-onbuild, 8-onbuild ([8.9/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/8.9.0/onbuild/Dockerfile))
+- 8.9.1, 8.9, 8 ([8.9/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/8.9.1/Dockerfile))
+- 8.9.1-onbuild, 8.9-onbuild, 8-onbuild ([8.9/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/8.9.1/onbuild/Dockerfile))
 - 6.12.0, 6.12, 6 ([6.12/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.12.0/Dockerfile))
 - 6.12.0-onbuild, 6.12-onbuild, 6-onbuild ([6.12/onbuild/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/6.12.0/onbuild/Dockerfile))
 - 4.8.6, 4.8, 4 ([4.8/Dockerfile](https://github.com/lgaticaq/node-zmq/blob/master/4.8.6/Dockerfile))
