@@ -1,11 +1,11 @@
-FROM lgatica/node-zmq:4.8.6@sha256:b93e6d6a8130c6cb59a340a485acfafff6beb444eba3a9e8e1cf167f5fe3a9b0
+FROM lgatica/node-zmq:8.11.1@sha256:9ffabfe6537c6754455801d5a910aa116cab43498e9accd4c5269eadd5321efb
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 ONBUILD ARG NODE_ENV
 ONBUILD ENV NODE_ENV $NODE_ENV
-ONBUILD COPY package.json yarn.* /usr/src/app/
+ONBUILD COPY package.json package-lock.* yarn.* /usr/src/app/
 ONBUILD RUN if [ -e yarn.lock ]; \
   then yarn && yarn cache clean; \
   else npm i && npm cache clean --force; fi && \
