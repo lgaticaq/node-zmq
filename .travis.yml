@@ -7,11 +7,13 @@ services:
 env:
   matrix:
     - env:
-      VERSION: '9.11.1'
+      VERSION: '10.4.1'
     - env:
-      VERSION: '8.11.1'
+      VERSION: '9.11.2'
     - env:
-      VERSION: '6.14.1'
+      VERSION: '8.11.3'
+    - env:
+      VERSION: '6.14.3'
     - env:
       VERSION: '4.9.1'
 
